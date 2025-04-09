@@ -5,7 +5,7 @@ using SparseArrays
 using Polynomials
 using Integrals
 
-include("analyticalhydrogenplots.jl")
+include("01_analyticalhydrogenplots.jl")
 
 function generateΦmatrix(N, h)
     offdiag = fill(1/h^2, N-1)
